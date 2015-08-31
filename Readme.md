@@ -3,11 +3,26 @@ Project 5 NeighborHood Map
 
 You can view Map by downloading files and open index.html in a browser.
 
+
+
 1.After pulling up Map select Get Started button
+
+
 2.Select Marker on map to pull up venue
+
+
 3.Or type in provided venue to pull up venue website
+
+
 4.Select tag to turn off venue or select again to turn venue on
+
+
 5.After pulling up venue select website to see offerings 
+
+
+
+
+Site can be viewed at  http://jwilli36.github.io
 
 
 
@@ -28,6 +43,8 @@ http://blog.logiticks.com/dynamically-binding-google-maps-location-using-knockou
 http://www.tagwith.com/question_6052075_adding-google-maps-with-knockoutjs
 
 http://stackoverflow.com/questions/29557938/removing-map-pin-with-search
+
+https://developer.foursquare.com/
 
 http://coolestguidesontheplanet.com/styling-placeholder-text-input-fields-forms-css/
 
