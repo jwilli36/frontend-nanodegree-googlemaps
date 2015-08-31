@@ -74,7 +74,7 @@ var gMap = {
 	map: {},
 	infoWindow: new google.maps.InfoWindow(), // reusable info window
 	options: {
-		center: { lat: 41.7002715, lng: -87.664567},
+		center: { lat: 41.795296, lng: -87.624742},
 		zoom: 11
 	},
 	infoWindowContent: '<div class="info-window"><div class="window-title">%title%</div><div class="window-description">%description%</div></div>',
@@ -101,7 +101,7 @@ var Place = function(data, parent) {
 	// google maps marker
 	var marker = new google.maps.Marker({
 		position: new google.maps.LatLng(data.lat, data.lng),
-		icon: 'img/marker.png'
+		icon: 'img/arrow.png'
 	});
 
 	// click handler for google maps marker
@@ -242,7 +242,7 @@ var ViewModel = function() {
 		gMap.infoWindow.open(gMap.map, place.marker);
 
 		// set the old marker icon back
-		if (self.currentPlace()) self.currentPlace().marker.setIcon('img/marker.png');
+		if (self.currentPlace()) self.currentPlace().marker.setIcon('img/arrow.png');
 
 		// set new marker to selected icon
 		place.marker.setIcon('img/marker_selected.png');
