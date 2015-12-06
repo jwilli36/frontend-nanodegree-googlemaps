@@ -66,6 +66,14 @@ var places = [
 		lng: -87.6485378,
 		info: 'Deli',
 		tags: ['Food', 'Drinks']
+	},
+	{
+		name: 'Pompei',
+		address: '1531 W Taylor, Chicago, IL 60607',
+		lat: 41.8691043,
+		lng: -87.6677345,
+		info: 'Restaurant',
+		tags: ['Food', 'Drinks']
 	}
 ];
 
